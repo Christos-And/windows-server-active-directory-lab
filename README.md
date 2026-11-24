@@ -55,3 +55,12 @@ Core infrastructure configured and tested successfully. Further Active Directory
 ## Documentation
 
 Detailed configuration notes, troubleshooting records, and screenshots will be added to this repository.
+## Lab Screenshots
+
+### Complete Lab Overview
+
+![Complete Hyper-V Active Directory Lab](screenshots/10-complete-lab-overview.png)
+
+The screenshot shows all three virtual machines running simultaneously, including Windows Server 2025 with Active Directory Domain Services and DNS.
+
+[View all 10 lab screenshots](screenshots/)
