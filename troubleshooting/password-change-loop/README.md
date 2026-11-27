@@ -318,3 +318,58 @@ This troubleshooting case demonstrated the importance of evidence-based diagnosi
 Rather than bypassing the authentication requirement or rebuilding the environment, a systematic troubleshooting approach was used to preserve the existing infrastructure and restore functionality.
 
 This project was completed as guided hands-on training in a personal virtualized IT environment.
+
+
+---
+
+## 15. Visual Evidence
+
+### System State Backup and Recovery Preparation
+
+Successful System State backup and backup catalog verification using Windows Server Backup.
+
+![System State Backup](screenshots/server-01-system-state-backup-verified.png)
+
+---
+
+### Hyper-V Dual Network Adapter Configuration
+
+Temporary network adapter connected to the Hyper-V Default Switch while preserving the original private Active Directory network.
+
+![Dual Network Adapters](screenshots/server-01-dual-network-adapters.png)
+
+---
+
+### IP Configuration and DNS Administration
+
+Verification of both network interfaces, DNS registration settings and configuration of the temporary adapter's DNS server.
+
+![IP and DNS Configuration](screenshots/server-01-adapter-ip-configuration.png)
+
+---
+
+### Internet Connectivity Verification
+
+Successful external DNS resolution and TCP connectivity on port 443 through the temporary network adapter.
+
+![Internet Connectivity](screenshots/server-01-internet-connectivity-verified.png)
+
+---
+
+### Windows Server Security Updates
+
+Installation of Windows Server 2025 security and .NET Framework updates to address the suspected operating system compatibility issue.
+
+![Windows Server Updates](screenshots/server-01-security-updates-installing.png)
+
+---
+
+### Successful Incident Resolution
+
+Active Directory verification confirming that the mandatory password change completed successfully. The password expiration flag was cleared and a new password timestamp was recorded.
+
+![Password Change Resolved](screenshots/server-01-forced-password-change-resolved.png)
+
+---
+
+[Return to Main Project](../../README.md)
