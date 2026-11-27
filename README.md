@@ -6,6 +6,30 @@ Built a virtual Windows Server environment using Microsoft Hyper-V to practice I
 
 The lab simulates a small business network with one domain controller and two Windows 11 client computers.
 
+## Troubleshooting Case Studies
+
+### Active Directory — Forced Password-Change Loop
+
+**Status:** Resolved | **Date:** 27 November 2026
+
+Investigated and resolved a recurring domain authentication issue through guided hands-on troubleshooting, recovery preparation and Windows Server maintenance.
+
+**Practical skills demonstrated:**
+
+- Active Directory and Kerberos authentication diagnostics
+- Windows Event Viewer and security auditing
+- PowerShell troubleshooting
+- System State backup and recovery preparation
+- Hyper-V network and storage administration
+- Windows Server patch management
+- Post-maintenance health verification
+
+**Outcome:** Successful domain authentication restored without reinstalling the server or weakening existing security policies. Approximately 21 GB of NVMe storage reclaimed through checkpoint management.
+
+[View the full troubleshooting case study and screenshots](troubleshooting/password-change-loop/README.md)
+
+---
+
 ## Lab Environment
 
 | Component | Configuration |
