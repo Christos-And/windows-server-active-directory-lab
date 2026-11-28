@@ -6,6 +6,22 @@ Built a virtual Windows Server environment using Microsoft Hyper-V to practice I
 
 The lab simulates a small business network with one domain controller and two Windows 11 client computers.
 
+## Active Directory Administration
+
+Practical administration of a simulated small-business Active Directory environment using Windows Server 2025.
+
+**Completed administrative tasks:**
+
+- Organizational Unit creation and management
+- Departmental user account provisioning
+- Security group creation and management
+- Group membership verification
+- Password management and domain authentication
+
+[View Active Directory administration documentation and screenshots](active-directory-administration/README.md)
+
+---
+
 ## Troubleshooting Case Studies
 
 ### Active Directory — Forced Password-Change Loop
